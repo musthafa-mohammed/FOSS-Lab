@@ -56,7 +56,7 @@ You can't merge the current pull request
    Solution --> Change the conflicting file manually, then pull and later push 
 
  BRANCHING
---------------
+ 
 git branch <branchname> -->Creates a new branch , branch will have content same as the master branch
 git checkout <branchname> --> Switches to new branch
 git -d <branchname> --> Delete a branch
