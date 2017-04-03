@@ -1,0 +1,16 @@
+ctse@ctse-66:~/mum$ curl www.google.com
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.co.in/?gfe_rd=cr&amp;ei=qN7hWJKTLMSL8Qe-j5iYAQ">here</A>.
+</BODY></HTML>
+ctse@ctse-66:~/mum$ wget https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/linux-4.11-rc5.tar.xz
+--2017-04-03 10:50:11--  https://cdn.kernel.org/pub/linux/kernel/v4.x/testing/linux-4.11-rc5.tar.xz
+Resolving cdn.kernel.org (cdn.kernel.org)... 151.101.8.69
+Connecting to cdn.kernel.org (cdn.kernel.org)|151.101.8.69|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 95422380 (91M) [application/x-xz]
+Saving to: `linux-4.11-rc5.tar.xz'
+
+ 1% [>                                                                                                      ] 14,44,551   71.3K/s  eta 19m 45s ^C
