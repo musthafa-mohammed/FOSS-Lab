@@ -3,7 +3,6 @@ Advanced linux command curl,wget,ftp,ssh,grep
 
 curl <url> --> Fetches content of the url and displays in stdout
 curl -o <url1> -o <url2>
-curl -L <url> -->insist redirection
 
 2.wget
 
@@ -28,6 +27,5 @@ ssh remote_username@remote_host
 5.grep
 
 grep "literal_string" filename
-grep "string" FILE_PATTERN
 grep -i "the" demo_file
 grep "lines.*empty" demo_file
