@@ -14,3 +14,9 @@ Length: 95422380 (91M) [application/x-xz]
 Saving to: `linux-4.11-rc5.tar.xz'
 
  1% [>                                                                                                      ] 14,44,551   71.3K/s  eta 19m 45s ^C
+
+
+
+
+ctse@ctse-66:~/mum$ grep "mazhar" classlist.txt 
+mazhar
