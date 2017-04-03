@@ -1,7 +1,3 @@
-
-
-Linux Basic Commands and Directory Operations
-
 mkdir <folder name> 		# Creates a folder
 pwd 				# Gives the present Working directory
 ls 				# List all files in the current directory
@@ -55,6 +51,6 @@ Basic  Directories in a typical Linux System
 
 Executing a Bash Script
 
- cd to the directory which contains the file to be executedrectory
+ cd to the directory which contains the file to be executed
  Type "chmod +x <fileName>" which provides system permissions for the file to be executed
  Type ./filename.sh to execute the file
