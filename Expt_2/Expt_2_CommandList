@@ -28,8 +28,17 @@ kill		 Sends a signal to the processes specified
 	kill -l 	 List the signal names that can be sent to the processes in linux
 	kill <PID>    Kill process with id PID
 	kills -s SIGKILL <PID> # Send SIGKILL signal to process with PID
-3. jobs 	 Lists the jobs that the current shell is managing
-4. bg		 Used to put a process in the background
-5. fg		 Used to put a process in the foreground
+jobs 	 Lists the jobs that the current shell is managing
+bg		 Used to put a process in the background
+fg		 Used to put a process in the foreground
+
+Ownership &permission
+
+ls -l (to show all files with permission)
+sudo chown -R username:group directory   ( to change ownership)
+
+sudo chmod -R <user or group><+ or - r/w/x> folder (to change file permissions)
+
+
 
 
