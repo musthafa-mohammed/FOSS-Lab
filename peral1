@@ -1,0 +1,7 @@
+Installation Perl Mariadb Driver:
+sudo apt-get install libdbd-mysql-perl
+Installation Mariadb:
+sudo apt-get update -y
+sudo apt-get install mariadb-server
+Perl Installation: 
+sudo apt-get install perl
