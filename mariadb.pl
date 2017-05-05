@@ -5,7 +5,7 @@ my $driver = "mysql";
 my $database = "student";
 my $dsn = "DBI:$driver:database=$database";
 my $userid = "root";						#Username often root
-my $password = "";						#your Password
+my $password = "password";						#your Password
 my $dbh = DBI->connect($dsn, $userid, $password ) or die $DBI::errstr;
 my $sth = $dbh->prepare("INSERT INTO student
                        (name , phone )
