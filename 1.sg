@@ -1,0 +1,62 @@
+#!/bin/sh
+echo "please enter the limit n "
+read n
+#read d
+d=$(($d+1))
+#m=$((10**$n))
+#echo $m
+lp=0
+i=0
+os=0
+r=1
+while [ "$r" -lt "$d" ]
+do
+ os=$(($os+$r))
+ r=$(($r+1))
+done
+#echo  $os
+while [ "$i" -lt "$n" ]
+do
+  oflag=0
+  j=0
+  s=0
+  k="$i"
+  c=0
+  while [ "$k" -ne "$j" ]
+  do
+    m=$(($k%10))
+    k=$(($k/10))
+    s=$(($s+$m))
+    c=$(($c+1))
+  done
+    if [ "$os" -eq "$s" ]  
+    then
+      #echo $i
+       flag=0
+       b=2
+       h=$(($i/2))
+       while [ "$b" -lt "$h" ]
+       do
+         mod=$(($i%$b))
+         if [ "$mod" -eq 0 ];
+         then
+         flag=1
+         fi
+       b=$(($b+1))
+       done 
+     if [ "$flag" -ne 1 ];
+     then
+       if [ "$i" -gt "$lp" ];
+        then
+          lp="$i"
+        fi
+     fi 
+    fi
+  i=$(($i+1))
+done
+#echo $lp
+var=$((10**"$n"))
+./a.out $var>new.txt
+cat new.txt
+echo "the largest"
+tail -1 new.txt
